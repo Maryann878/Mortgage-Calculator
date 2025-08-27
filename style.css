@@ -51,6 +51,11 @@ body {
 
 .results-topic {
   margin: 8px 0; /* unified spacing */
+  color: hsl(202, 86%, 94%);
+}
+
+.results p {
+  color: hsl(202, 86%, 94%);
 }
 
 /* Calculated state */
@@ -73,14 +78,14 @@ body {
   margin: 0 0 0.5rem;
 }
 .results.active p {
-  color: hsl(203, 41%, 85%);
+  color: hsl(200, 26%, 54%);
   margin: 0.5rem 0;
   line-height: 1.5;
   font-size: 15px;
 }
 .results.active hr {
   border: none;
-  border-top: 0.01px solid hsl(202, 86%, 94%);
+  border-top: 0.01px solid hsl(200, 24%, 40%);
   margin: 1rem 0 1.5rem;
 }
 
@@ -174,9 +179,9 @@ input:focus {
   border-color: hsl(61, 70%, 52%);
   background-color: hsl(61, 70%, 97%);
 }
-.input-with-icon:focus-within span {
+.input-with-icon:focus-within span, .input-with-suffix:focus-within span {
   background-color: hsl(61, 70%, 52%);
-  color: #fff; /* improves contrast */
+  color: hsl(202, 55%, 16%);
 }
 
 /* Hover */
@@ -186,6 +191,13 @@ input:focus {
   box-shadow: 0 0 0 3px hsla(61, 70%, 52%, 0.15);
 }
 
+/* inputs */
+
+input[type="text"],
+input[type="number"] {
+   color: hsl(202, 55%, 16%);
+    font-weight: 700;
+}
 /* Form row */
 .form-row {
   display: flex;
@@ -253,6 +265,9 @@ fieldset {
 }
 .btn-icon {
   margin: 0 0.7rem 0 -1rem;
+}
+.btn-text{
+   color: hsl(202, 55%, 16%)
 }
 
 /* Error states */
