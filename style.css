@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /* Base */
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -111,6 +115,7 @@ header .clear {
   background: transparent;
   cursor: pointer;
   align-self: flex-start;
+  padding: 0;
 }
 
 /* Form */
@@ -294,8 +299,8 @@ input[type="radio"]:checked {
 input[type="radio"]:checked::after {
   content: "";
   position: absolute;
-  top: 4px;
-  left: 4px;
+  top: 3.5px;
+  left: 3.5px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -363,5 +368,9 @@ input[type="radio"]:checked::after {
 
   .form-row .form-group {
     flex: 1;
+  }
+
+  .btn{
+    width: 70%;
   }
 }
