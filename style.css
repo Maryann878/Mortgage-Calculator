@@ -54,8 +54,12 @@ body {
   color: hsl(202, 86%, 94%);
 }
 
-.results p {
+/* .results p {
   color: hsl(202, 86%, 94%);
+} */
+
+.instruction{
+    color: hsl(203, 41%, 72%);
 }
 
 /* Calculated state */
@@ -74,11 +78,11 @@ body {
 .results.active h2 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: hsl(203, 41%, 85%);
+  color: hsl(202, 86%, 94%);
   margin: 0 0 0.5rem;
 }
 .results.active p {
-  color: hsl(200, 26%, 54%);
+  color: hsl(203, 41%, 72%);
   margin: 0.5rem 0;
   line-height: 1.5;
   font-size: 15px;
